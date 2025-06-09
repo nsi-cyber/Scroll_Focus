@@ -17,7 +17,7 @@ A powerful Jetpack Compose component that provides real-time viewing time analyt
 
 ## 📱 Demo
 
-![Demo GIF](demo.gif)
+ 
 
 *Real-time viewing analytics with configurable thresholds*
 
@@ -27,7 +27,13 @@ Add the component to your Jetpack Compose project:
 
 ```kotlin
 // Copy the ViewingTimeTrackingLazyColumn.kt file to your project
-// Or add as a dependency (if published to Maven)
+// ViewingTimeTrackingLazyColumn(
+//    content = yourComposables,
+//    onViewingTimesChanged = { times ->
+//        // Real-time viewing data in milliseconds
+//    },
+//    visibilityThreshold = 0.7f // 70% visible
+)
 ```
 
 ### Requirements
@@ -181,10 +187,6 @@ fun calculateVisibilityPercentage(
 ## 🎨 Customization
 
 ### Custom Visibility Thresholds
-
-- **0.5f (50%)**: Liberal tracking, good for fast scrolling
-- **0.7f (70%)**: Balanced approach (recommended)
-- **0.9f (90%)**: Strict tracking, only fully visible items
 
 ### Mixed Content Types
 

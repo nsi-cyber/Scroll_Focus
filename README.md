@@ -17,7 +17,7 @@ A powerful Jetpack Compose component that provides real-time viewing time analyt
 
 ## 📱 Demo
 
- 
+ https://www.linkedin.com/feed/update/urn:li:activity:7337950329814016000/
 
 *Real-time viewing analytics with configurable thresholds*
 
@@ -33,7 +33,7 @@ Add the component to your Jetpack Compose project:
 //        // Real-time viewing data in milliseconds
 //    },
 //    visibilityThreshold = 0.7f // 70% visible
-)
+// )
 ```
 
 ### Requirements
